@@ -1,0 +1,104 @@
+.profilePage {
+  min-height: 80vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  padding: 0 10px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+}
+
+.watchlistButton {
+  padding: 10px 18px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profileContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.profileTitle {
+  font-size: 36px;
+  color: red;
+  margin-bottom: 30px;
+}
+
+.profileDetail {
+  font-size: 20px;
+  margin: 14px 0;
+  color: white;
+}
+
+.profileDetail strong {
+  color: red;
+}
+
+.editButton {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.2s ease;
+}
+
+.editButton:hover {
+  background-color: #457b9d;
+}
+
+.deleteProfileButton {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.deleteProfileButton:hover {
+  background-color: #b0060f;
+}
+
+.retourButton {
+  background-color: #444;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.retourButton:hover {
+  background-color: #666;
+}
+
+

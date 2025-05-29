@@ -1,0 +1,166 @@
+/* Conteneur principal */
+.exploreContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: red;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* Titre */
+.exploreTitle {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.retourButton {
+  background-color: #333;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.retourButton:hover {
+  background-color: #555;
+}
+
+
+/* Lien vers la page Explore */
+.watchlistLink {
+  margin-bottom: 20px;
+  background-color: #222;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.watchlistLink:hover {
+  background-color: #444;
+}
+
+/* Grille des films */
+.filmGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Carte de film */
+.filmCard {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px;
+}
+
+.filmCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Image du film */
+.filmImage {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Informations sur le film */
+.filmInfo {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 12px 12px;
+}
+
+/* Titre du film */
+.filmTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Note du film */
+.filmRating {
+  color: #ffcc00;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Boutons */
+.filmButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.detailsButton,
+.removeButton {
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.detailsButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+}
+
+.detailsButton:hover {
+  background-color: #e60000;
+}
+
+.removeButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background-color: #e60000;
+}
+
+/* Message si la watchlist est vide */
+p {
+  font-size: 18px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 20px;
+}

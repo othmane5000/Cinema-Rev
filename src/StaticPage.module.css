@@ -1,0 +1,23 @@
+.pageContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  color: #fff;
+  background-color: #121212;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.pageContainer h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pageContainer ul {
+  list-style: inside;
+  padding-left: 1rem;
+}
+
+.pageContainer li {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "title": "Breaking Bad",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+    "rating": 9.5,
+    "trailerUrl": "https://www.youtube.com/embed/HhesaQXLuRY",
+    "description": "Walter White, un professeur de chimie surqualifié et sous-payé, apprend qu'il est atteint d'un cancer en phase terminale. Pour assurer l'avenir financier de sa famille, il s'associe à un ancien élève pour produire et vendre de la méthamphétamine. Plongeant dans le monde du crime, Walter devient méconnaissable alors qu'il découvre sa vraie nature.",
+    "isNew": false
+
+  },
+  {
+    "id": 2,
+    "title": "The Last of Us",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "rating": 8.6,
+    "trailerUrl": "https://www.youtube.com/embed/uLtkt8BonwM",
+    "description": "Vingt ans après l'effondrement de la civilisation à cause d'une pandémie fongique, Joel, un survivant endurci, est chargé de faire sortir Ellie, une jeune fille mystérieusement immunisée, d'une zone de quarantaine oppressante. Ce qui commence comme une mission de routine devient rapidement un voyage brutal et émouvant à travers une Amérique ravagée."
+     ,"isNew": false
+
+  },
+
+  {
+    "id": 3,
+    "title": "Stranger Things",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "rating": 8.6,
+    "trailerUrl": "https://www.youtube.com/embed/b9EkMc79ZSU",
+    "description": "Dans la petite ville de Hawkins, Indiana, un jeune garçon disparaît mystérieusement. Alors que ses amis partent à sa recherche, ils découvrent une fille aux pouvoirs surnaturels, un laboratoire secret et une dimension parallèle terrifiante. La série mêle suspense, nostalgie des années 80 et horreur surnaturelle dans un récit captivant."
+      ,"isNew": false
+
+  },
+  {
+    "id": 4,
+    "title": "The Walking Dead",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/reKs8y4mPwPkZG99ZpbKRhBPKsX.jpg",
+    "rating": 8.1,
+    "trailerUrl": "https://www.youtube.com/embed/sfAc2U20uyg",
+    "description": "Après s’être réveillé d’un coma, le shérif adjoint Rick Grimes découvre que le monde a été ravagé par une apocalypse zombie. Il rejoint un groupe de survivants et lutte pour leur sécurité dans un monde brutal où les morts-vivants ne sont pas les seuls dangers. Les conflits humains deviennent souvent plus mortels que les zombies eux-mêmes."
+     ,"isNew": false
+  
+  },
+  {
+    "id": 5,
+    "title": "Peaky Blinders",
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDkxN2RiYmMtMmQ2OS00MGU3LWIyZmMtNDExZGFjMTI4NjY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 8.7,
+    "trailerUrl": "https://www.youtube.com/embed/oVzVdvGIC7U",
+    "description": "Dans le Birmingham des années 1920, la famille Shelby dirige un gang redoutable connu sous le nom des Peaky Blinders. Tommy Shelby, leur chef charismatique et impitoyable, cherche à étendre son empire criminel tout en affrontant des ennemis aussi bien politiques que mafieux. La série est saluée pour son ambiance stylisée, sa narration sombre et sa bande-son percutante."
+,"isNew": false
+  },
+  {
+    "id": 6,
+    "title": "The Shawshank Redemption",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "rating": 9.3,
+    "trailerUrl": "https://www.youtube.com/embed/6hB3S9bIaco",
+    "description": "Accusé à tort du meurtre de sa femme, Andy Dufresne est condamné à la prison à vie à Shawshank. Malgré l'oppression du système carcéral, il conserve espoir et se lie d’amitié avec un détenu nommé Red. Grâce à son intelligence et sa persévérance, Andy planifie lentement une évasion brillante, dans une histoire bouleversante sur l’espoir et la liberté."
+,"isNew": false
+  },
+  {
+    "id": 7,
+    "title": "Suits",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vQiryp6LioFxQThywxbC6TuoDjy.jpg",
+    "rating": 8.4,
+    "trailerUrl": "https://www.youtube.com/embed/85z53bAebsI",
+    "description": "Mike Ross, un jeune homme brillant mais sans diplôme, décroche un poste d’avocat auprès de Harvey Specter, l’un des meilleurs avocats de Manhattan. Ensemble, ils défendent les clients du cabinet tout en cachant le secret de Mike. La série mêle humour, drame juridique et tension, dans l'univers impitoyable des cabinets d'avocats new-yorkais."
+,"isNew": false
+  },
+  {
+    "id": 8,
+    "title": "The Dark Knight",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "rating": 9.0,
+    "trailerUrl": "https://www.youtube.com/embed/EXeTwQWrcwY",
+    "description": "Batman affronte son adversaire le plus redoutable : le Joker, un criminel anarchiste prêt à plonger Gotham dans le chaos. Le justicier masqué est poussé dans ses retranchements moraux alors qu’il tente de protéger la ville. Ce chef-d’œuvre du cinéma de super-héros allie action spectaculaire et réflexion profonde sur la justice et le sacrifice."
+  ,"isNew": false
+  },
+  
+  {
+    "id": 11,
+    "title": "Game of Thrones",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+    "rating": 9.2,
+    "trailerUrl": "https://www.youtube.com/embed/BpJYNVhGf1s",
+    "description": "Dans le continent fictif de Westeros, plusieurs familles nobles luttent pour le contrôle du Trône de Fer, symbole de pouvoir absolu. Entre alliances, trahisons, guerres et créatures mythiques, le destin des Sept Royaumes est bouleversé à mesure que les forces surnaturelles se rapprochent. Une épopée médiévale intense, aux personnages complexes et à l’intrigue imprévisible."
+ ,"isNew": false
+  },
+   {
+    "id": 12,
+    "title": "Dexter",
+    "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCC3Kw5CI07PFYMhPRVknMQqSEe7RjeRjjQ&s",
+    "rating": 8.6,
+    "trailerUrl": "https://www.youtube.com/embed/YQeUmSD1c3g",
+    "description": "Dexter Morgan, expert médico-légal en analyse de sang pour la police de Miami, cache un sombre secret : il est aussi un tueur en série... mais qui ne tue que d'autres criminels. Partagé entre son désir de justice et sa soif de sang, Dexter mène une double vie dangereusement captivante. Une série intense mêlant suspense psychologique, crime et moralité ambiguë."
+  ,"isNew": false
+  },
+{
+"id": 20,
+"title": "Money Heist",
+"posterUrl": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+"rating": 8.3,
+"trailerUrl": "https://www.youtube.com/embed/3N7uL9bd3lI",
+"description": "Un groupe de criminels réalise un braquage audacieux à la Maison de la Monnaie d’Espagne, dirigé par un mystérieux cerveau surnommé ‘Le Professeur’. Suspense, stratégie et émotions au rendez-vous."
+,"isNew": false
+},
+  {
+    "id": 10,
+    "title": "House of the Dragon",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBstwruJ.jpg",
+    "rating": 8.3,
+    "trailerUrl": "https://www.youtube.com/embed/DotnJ7tTA34",
+    "description": "Préquelle de Game of Thrones, cette série suit la maison Targaryen deux siècles avant la naissance de Daenerys. Alors que la guerre civile connue sous le nom de 'Danse des Dragons' se profile, intrigues politiques, trahisons familiales et batailles épiques ravivent la lutte pour le trône de Fer. Un récit captivant sur la montée et la chute d’une dynastie."
+  ,"isNew": false
+  },
+ {
+    "id": 206,
+    "title": "One Piece",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
+    "rating": 8.2,
+    "trailerUrl": "https://www.youtube.com/embed/Ades3pQbeh8",
+    "description": "Monkey D. Luffy part à la recherche du trésor légendaire pour devenir le roi des pirates.",
+    "isNew": false
+  },
+  {
+    "id": 207,
+    "title": "No Country for Old Men",
+    "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlanYHf_BLh3saZMSP17E1bziNfGaO-Ms7HA&s",
+    "rating": 8.1,
+    "trailerUrl": "https://www.youtube.com/embed/38A__WT3-o0",
+    "description": "Un chasseur devient la cible d’un tueur impitoyable après avoir trouvé une valise d'argent.",
+    "isNew": false
+  },
+  {
+    "id": 208,
+    "title": "The 100",
+    "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPlBFOGQmF3IA21iTGPsioO7ms8oBzYdnhAg&s",
+    "rating": 7.6,
+    "trailerUrl": "https://www.youtube.com/embed/ia1Fbg96vL0",
+    "description": "100 jeunes délinquants sont envoyés sur Terre pour tester sa viabilité après une apocalypse nucléaire.",
+    "isNew": false
+  },
+  {
+    "id": 209,
+    "title": "Chernobyl",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+    "rating": 9.3,
+    "trailerUrl": "https://www.youtube.com/embed/s9APLXM9Ei8",
+    "description": "Une mini-série dramatique retraçant la catastrophe nucléaire de 1986 à Pripyat, en Ukraine.",
+    "isNew": false
+  },
+
+  
+   
+  {
+    "id": 201,
+    "title": "Dune: Part Two",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg",
+    "rating": 8.5,
+    "trailerUrl": "https://www.youtube.com/embed/U2Qp5pL3ovA",
+    "description": "Paul Atreides poursuit sa destinée avec Chani et les Fremen contre les Harkonnen.",
+    "isNew": true
+  },
+  {
+    "id": 202,
+    "title": "Oppenheimer",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg",
+    "rating": 8.4,
+    "trailerUrl": "https://www.youtube.com/embed/uYPbbksJxIg",
+    "description": "La vie de J. Robert Oppenheimer et la création de la première bombe atomique.",
+    "isNew": true
+  },
+  {
+    "id": 203,
+    "title": "Spider-Man: No Way Home",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "rating": 8.3,
+    "trailerUrl": "https://www.youtube.com/embed/JfVOs4VSpmA",
+    "description": "Peter Parker fait appel au Dr. Strange pour réparer son identité révélée au monde.",
+    "isNew": true
+  },
+  {
+    "id": 204,
+    "title": "Everything Everywhere All at Once",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+    "rating": 8.1,
+    "trailerUrl": "https://www.youtube.com/embed/wxN1T1uxQ2g",
+    "description": "Une femme ordinaire est entraînée dans une aventure multiverselle folle.",
+    "isNew": true
+  },
+  {
+    "id": 205,
+    "title": "The Batman",
+    "posterUrl": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "rating": 7.9,
+    "trailerUrl": "https://www.youtube.com/embed/mqqft2x_Aa4",
+    "description": "Batman enquête sur un tueur sadique qui vise l’élite de Gotham.",
+    "isNew": true
+  }
+
+
+
+]

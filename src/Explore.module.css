@@ -1,0 +1,342 @@
+/* Conteneur principal */
+.exploreContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:   4100px 20px 40px; /* Ajustement du padding-top pour ne pas chevaucher le logo */
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; /* Assurez-vous que le contenu est au-dessus du fond */
+}
+
+/* Logo en haut */
+.logo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: red; /* Couleur rouge pour le logo */
+    position: fixed;
+    font-weight: bold;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Éviter que le logo soit caché sous d'autres éléments */
+}
+
+/* Titre de la section Explore */
+.exploreTitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: white; /* Rouge pour le titre */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Grille des films */
+.filmGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 films par ligne */
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px; /* Espacement au-dessus de la grille */
+    z-index: 1; /* Assurer que la grille est au-dessus du fond */
+}
+
+/* Carte de film */
+.filmCard {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px; /* Ajuste la largeur des cartes */
+    margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+.filmCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4); /* Ombre subtile lors du survol */
+}
+
+/* Image du film */
+.filmImage {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Informations sur le film */
+.filmInfo {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Légère transparence foncée pour la lisibilité */
+    border-radius: 0 0 12px 12px;
+}
+
+/* Lien vers la Watchlist */
+.watchlistLink {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff4d4d; /* Couleur rouge */
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 30px; /* Espacement sous le lien */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+/* Effet au survol du lien */
+.watchlistLink:hover {
+    background-color: #e60000; /* Couleur rouge plus foncée */
+    transform: translateY(-2px); /* Légère élévation pour l'effet de survol */
+}
+
+/* Effet au focus (par exemple, lors d'un clic ou sélection avec le clavier) */
+.watchlistLink:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Ombre rouge au focus */
+}
+
+/* Effet au survol sur les appareils mobiles */
+.watchlistLink:active {
+    transform: translateY(2px); /* Petit effet de pression pour l'active state */
+}
+
+
+/* Titre du film */
+.filmTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Note du film */
+.filmRating {
+    color: #ffcc00;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Bouton Voir plus */
+.detailsButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px; /* Ajoute de l'espace au-dessus du bouton */
+    margin-bottom: 3px; /* Ajoute de l'espace en bas du bouton pour séparer la carte */
+}
+
+/* Conteneur de la barre de recherche */
+.searchContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Assurer que la barre de recherche est au-dessus des autres éléments */
+}
+
+/* Style de la barre de recherche */
+.searchBar {
+    width: 300px;
+    padding: 10px 19px;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.searchBar::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+.searchBar:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: #ff0000;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+}
+
+/* Message d'ajout à la watchlist */
+.message {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Bouton "Ajouter à la watchlist" */
+.detailsButton:hover {
+    background-color: darkred;
+}
+
+.detailsButton:focus {
+    outline: none;
+}
+
+
+.footer {
+  width: 96vw;
+  background-color: #000;
+  color: #ccc;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footerSection {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.footerSection h3 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 8px;
+}
+
+.footerSection ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerSection ul li a:hover {
+  color: #e50914;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.description {
+  font-size: 14px;
+  color: #999;
+  margin-top: 8px;
+  max-width: 250px;
+}
+
+.socialIcons a {
+  display: inline-block;
+  color: #ccc;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+  color: #e50914;
+}
+
+.footerBottom {
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.whatsappButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 28px;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsappButton:hover {
+  transform: scale(1.1);
+  background-color: #20b954;
+}
+
+.faqContainer {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faqTitle {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.faqQuestion {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #333;
+  position: relative;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.faqQuestion::before {
+  content: "❓";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.faqAnswer {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  padding-left: 20px;
+  line-height: 1.6;
+  border-left: 3px solid #ddd;
+}
+
+.faqLink {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.faqLink:hover {
+  text-decoration: underline;
+}
+
+
