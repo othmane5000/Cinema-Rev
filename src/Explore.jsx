@@ -56,6 +56,8 @@ const Explore = () => {
   return (
     <>
       <div className={styles.searchContainer}>
+         <div className={styles.logo}>🎬 CinemaRev</div>
+         <div className={styles.write}>
         <input
           type="text"
           placeholder="Rechercher un film ou une série..."
@@ -65,10 +67,10 @@ const Explore = () => {
         />
         <Link to="/watchlist" className={styles.watchlistLink}>➕ Voir la Watchlist</Link>
         <Link to="/profile" className={styles.watchlistLink}>👤 Profil</Link>
+        </div>
       </div>
 
       <div className={styles.exploreContainer}>
-        <div className={styles.logo}>🎬 CinemaRev</div>
 
         {/* 🎥 FILMS */}
         <h1 className={styles.exploreTitle}>Top Picks</h1>

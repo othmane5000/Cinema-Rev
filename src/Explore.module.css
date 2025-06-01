@@ -15,12 +15,9 @@
 .logo {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 30px;
     color: red; /* Couleur rouge pour le logo */
-    position: fixed;
     font-weight: bold;
-    top: 20px;
-    left: 20px;
+    
     z-index: 1000; /* Éviter que le logo soit caché sous d'autres éléments */
 }
 
@@ -79,9 +76,9 @@
 
 /* Lien vers la Watchlist */
 .watchlistLink {
-    display: inline-block;
+    display: block;
     padding: 12px 20px;
-    background-color: #ff4d4d; /* Couleur rouge */
+    background-color: red; /* Couleur rouge */
     color: white;
     font-size: 14px;
     font-weight: 600;
@@ -90,7 +87,7 @@
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-bottom: 30px; /* Espacement sous le lien */
+     /* Espacement sous le lien */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre subtile */
 }
 
@@ -142,10 +139,21 @@
 
 /* Conteneur de la barre de recherche */
 .searchContainer {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000; /* Assurer que la barre de recherche est au-dessus des autres éléments */
+    position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  z-index: 9999;
+    
+}
+.write {
+  display: flex;
+  gap: 20px;
 }
 
 /* Style de la barre de recherche */
@@ -240,7 +248,7 @@
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #e50914;
+  color: red;
 }
 
 .description {
